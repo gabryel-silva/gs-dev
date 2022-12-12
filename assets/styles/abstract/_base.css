@@ -1,0 +1,39 @@
+@import url('./_variaveis.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--cor-1);
+    height: 100%;
+    padding: 0 10% 0 10%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    background-color: transparent !important;
+}
+
+.texto{
+    color: var(--cor-4);
+    font-weight: var(--regular);
+    font-size: var(--texto);
+}
+a{
+    text-decoration: none;
+}
+.opacidade-texto{
+    opacity: 70%;
+}
+
+.titulo{
+    color: var(--cor-3);
+    font-weight: var(--semiBold);
+    font-size: var(--titulo);
+}
+
+.light{
+    color: var(--cor-1);
+    background-color: var(--cor-3);
+}

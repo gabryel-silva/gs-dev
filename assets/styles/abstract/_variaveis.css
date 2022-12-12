@@ -1,0 +1,20 @@
+:root{
+    /*CORES*/
+    --cor-1: #222831;
+    --cor-2: #393E46;
+    --cor-3: #EEEEEE;
+    --cor-4: #E1E1E1;
+    --degrade-1: linear-gradient(90deg, #E94560 0%, #FD7014 100%);
+    --degrade-2: linear-gradient(270deg, #393E46 -20.61%, rgba(57, 62, 70, 0) 108.4%);
+    /*TAMANHO FONTE*/
+    --texto: 16px;
+    --subtitulo: 18px;
+    --titulo: 20px;
+    /*ESPESSURA DA FONTE*/
+    --light: 300;
+    --normal: 400;
+    --semiBold: 600;
+    /*SOMBRAS*/
+    --shadow-container: 2px 4px 15px rgba(0, 0, 0, 0.25);
+    --shadow-botao: 1px 2px 4px rgba(0, 0, 0, 0.25);
+}

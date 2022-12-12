@@ -1,0 +1,8 @@
+@import url('../abstract/_variaveis.css');
+
+.container{
+    padding: 1rem;
+    background-color: var(--cor-4);
+    box-shadow: var(--shadow-container);
+    border-radius: 10px;
+}

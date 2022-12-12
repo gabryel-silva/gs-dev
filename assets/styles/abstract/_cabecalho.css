@@ -1,0 +1,17 @@
+@import url('./_variaveis.css');
+header{
+    margin-top: 2rem;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: space-between;
+}
+.container__right > a > img{
+    fill: var(--cor-3);
+}
+.container__right > a > img:nth-child(1){
+    width: 30px;
+    height: 30px;
+}
+
