@@ -1,6 +1,9 @@
 .menu-fechado{
     display: none;
 }
+.menu__aberto{
+    display: flex;
+}
 .menu__aberto ul{
     display: flex;   
     flex-direction: column;
