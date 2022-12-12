@@ -10,18 +10,30 @@
    <title>Início | GS dev</title>
 </head>
 <body>
-    <hedaer>
+    <header>
         <nav class="container__left">
             <img src="assets/img/logos/logo-minimalista.svg" alt="logo do site">
             <a href="#"><img src="assets/img/icons/casa.svg" alt="Início"></a>
             <a href="#"><img src="assets/img/icons/contato.svg" alt="Contato"></a>
-            <input type="checkbox">
+            <input type="checkbox" id="btn-tema">
+            <label class="titulo" for="btn-tema" aria-label="light"><img src="./assets/img/icons/lua.svg" alt="tema do site">escuro</label>
         </nav>
         <nav class="container__right">
             <a class="titulo" href="#"><img src="assets/img/icons/user.svg" alt="Curriculo">Currículo</a>
             <a class="titulo" href="#"><img src="assets/img/icons/navegdor.svg" alt="Portfólio">Portfólio</a>
-            <button class="menu-fechado"><img src="./assets/img/icons/menu-botao.svg" alt="menu-fechado"></button>
+            <button class="botao-menu-fechado" aria-label="btn-menu-fechado"><img src="./assets/img/icons/menu-botao.svg" alt="menu-fechado"></button>
         </nav>
-    </hedaer>
+    </header>
+    <nav class="menu__aberto">
+        <ul>
+            <a class="texto active" href="#">Início</a>
+            <a class="texto" href="#">Contato</a>
+            <a class="texto" href="#">Cúrriculo</a>
+            <a class="texto" href="#">Portfólio</a>
+            <input type="checkbox" id="btn-tema__menu-aberto">
+            <label class="texto" for="btn-tema__menu-aberto" aria-label="light"><img src="./assets/img/icons/lua.svg" alt="tema do site">escuro</label>
+        </ul>
+    </nav>
+    <script src="./assets/js/menu.js"></script>
 </body>
 </html>

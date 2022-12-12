@@ -1,4 +1,5 @@
 @import url('./abstract/_base.css');
 @import url('./abstract/_variaveis.css');
 @import url('./componentes/_cards.css');
-@import url('./abstract/_cabecalho.css');
+@import url('./componentes/_cabecalho.css');
+@import url('./componentes/_menuAberto.css');

@@ -1,0 +1,95 @@
+@import url('../abstract/_variaveis.css');
+header{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+.container__left{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+.container__right{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+.container__right a{
+    display: flex;
+    align-items: center;
+}
+.container__left > a > img{
+    width: 20px;
+    height: 20px;
+}
+.container__right > a > img{
+    width: 20px;
+    height: 20px;
+    margin-right: .25rem;
+}
+.container__right button{
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+header nav a:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: ease-out .3s;
+}
+.container__left input{
+    display: none;
+}
+.container__left label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95px;
+    transition: ease-in-out .3s;
+}
+.container__left label:hover{
+    padding: .2rem .5rem;
+    background-color: var(--cor-2);
+    border-radius: 20px;
+    width: 110px;
+}
+@media only screen and (max-width:1275px){
+    header label{
+        display: none !important;
+    }
+    .container__right button{
+        display: flex;
+        position: absolute;
+        right: 10%;
+    }
+    .container__right a:nth-child(2){
+        display: none;
+    }
+}
+@media only screen and (max-width:1024px){
+    .container__left{
+        width: 20%;
+    }
+    .container__right{
+        width: 30%;
+    }
+}
+@media only screen and (max-width:744px){
+    .container__left{
+        width: 0;
+    }
+    .container__left a{
+        display: none;
+    }
+    .container__right{
+        width: 0;
+    }
+    .container__right a{
+        display: none;
+    }
+}
