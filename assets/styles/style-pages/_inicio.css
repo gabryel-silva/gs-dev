@@ -1,0 +1,23 @@
+@import url('../abstract/_variaveis.css');
+main h1{
+    margin-bottom: .5rem;
+}
+.sessao__info{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: space-evenly;
+}
+.cotainer__ilustracao{
+    margin: 2rem 0;
+}
+.informativos, .items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem 0;
+}
+.items h3{
+    margin: .8rem 0;
+}
