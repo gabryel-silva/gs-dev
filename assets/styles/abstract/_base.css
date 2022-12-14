@@ -21,6 +21,12 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: var(--texto);
     line-height: 30px;
 }
+.texto-semibold{
+    font-weight: var(--semiBold);
+    font-size: var(--texto);
+    line-height: 30px;
+    color: var(--cor-4);
+}
 a{
     text-decoration: none;
 }

@@ -38,7 +38,7 @@
 .menu__aberto label{
     display: flex;
     align-items: center;
-    padding: .3rem .5rem;
+    padding: .1rem .4rem;
     background-color: var(--cor-1);
     border-radius: 20px;
 }
