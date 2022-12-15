@@ -7,9 +7,9 @@ controls.forEach((control) => {
     control.addEventListener('click', () => {
         const isLeft = control.classList.contains("arrow-left");
         if(isLeft){
-            currentItem -= 4;
+            currentItem -= 1;
         } else{
-            currentItem += 4;
+            currentItem += 1;
         }
         if(currentItem >= maxItems){
             currentItem = 0;
