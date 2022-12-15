@@ -1,15 +1,17 @@
+
 const controls = document.querySelectorAll('.control');
 let currentItem = 0;
 const items = document.querySelectorAll('.item');
 const maxItems = items.length;
+let width = screen.width;
 
 controls.forEach((control) => {
     control.addEventListener('click', () => {
         const isLeft = control.classList.contains("arrow-left");
         if(isLeft){
-            currentItem -= 4;
+            currentItem -= 1;
         } else{
-            currentItem += 4;
+            currentItem += 1;
         }
         if(currentItem >= maxItems){
             currentItem = 0;
