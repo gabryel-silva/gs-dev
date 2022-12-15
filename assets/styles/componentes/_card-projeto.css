@@ -1,5 +1,5 @@
 .card__projeto{
-    width: 100%;
+    width: 100vw;
     padding-bottom: 1rem;
     background-color: var(--cor-2);
     border-radius: 10px;
