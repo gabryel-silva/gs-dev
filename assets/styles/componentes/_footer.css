@@ -43,14 +43,14 @@ footer > p{
     text-align: center;
 }
 .contato-footer a{
-    background-image: url('../../img/icons/telefone.svg');
+    background-image: url('../../img/icons/envelope.svg');
     background-repeat: no-repeat;
     background-size: 16px;
     background-position-y: 3px;
     padding: 0 1.5rem;
 }
 .contato-footer p{
-    background-image: url('../../img/icons/envelope.svg');
+    background-image: url('../../img/icons/telefone.svg');
     background-repeat: no-repeat;
     background-size: 16px;
     background-position-y: 6px;
