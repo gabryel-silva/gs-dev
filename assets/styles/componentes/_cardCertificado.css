@@ -1,0 +1,84 @@
+@import url('../abstract/_variaveis.css');
+.container__certificados{
+    background-image: url('../../img/background/bg-forma.svg');
+    width: 100%;
+}
+.card__certificado{
+    width: 100%;
+    height: 129px;
+    background-color: var(--cor-2);
+    border-radius: 10px;
+    box-shadow: var(--shadow-container);
+    display: grid;
+    grid-template-areas: 
+    "icone titulo titulo"
+    "horas horas botao";
+    grid-template-columns: 20% 20% 60%;
+    grid-template-rows: 70% 30%;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+.icon-tecnologia{
+    width: 40px;
+    grid-area: icone;
+}
+.card__certificado h2{
+    grid-area: titulo;
+}
+.horas-curso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-area: horas;
+}
+.horas-curso img{
+    width: 16px;
+    margin-right: .3rem;
+}
+.container__ver-certificado{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.container__ver-certificado a{
+    padding: .1rem .5rem;
+    background-image: var(--degrade-1);
+    border-radius: 20px;
+    grid-area: botao;
+    text-align: center;
+}
+@media only screen and (min-width:740px){
+    .container__certificados{
+        display: grid;
+        grid-template-areas:
+        "titulo titulo"
+        "item1 item2"
+        "item3 item4";
+        column-gap: 1rem;
+    }
+    .container__certificados h1{
+        grid-area: titulo;
+    }
+    .item-certificado1{
+        grid-area: item1;
+    }
+    .item-certificado2{
+        grid-area: item2
+    }
+    .item-certificado3{
+        grid-area: item3;
+    }
+    .item-certificado4{
+        grid-area: item4;
+    }
+}
+@media only screen and (min-width:1215px){
+    .container__certificados{
+        grid-template-areas:
+        "titulo titulo titulo"
+        "item1 item2 item3";
+    }
+    .item-certificado4{
+        display: none;
+    }
+}

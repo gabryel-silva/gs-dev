@@ -27,7 +27,13 @@ main > h1{
 .items h3{
     margin: .8rem 0;
 }
-@media only screen and (min-width:744px){
+.container__carrossel{
+    margin: 1rem 0;
+}
+.item-projeto5, .item-projeto6{
+    display: none !important;
+}
+@media only screen and (min-width:740px){
     main{
         display: grid;
         grid-template-columns: 47% 47%;
@@ -48,6 +54,7 @@ main > h1{
     }
     .sessao__info{
         grid-area: info;
+        margin: 4rem 0;
     }
     .informativos{
         display: grid;
@@ -78,8 +85,28 @@ main > h1{
     .container__saudacao .texto, .container__saudacao .texto-semibold{
         font-size: 18px;
     }
+    .container__carrossel{
+        display: grid;
+        grid-template-columns: 49% 49%;
+        grid-template-areas: 
+        "item1 item2"
+        "item3 item4";
+        gap: 1rem;
+    }
+    .item-projeto1{
+        grid-area: item1;
+    }
+    .item-projeto2{
+        grid-area: item2;
+    }
+    .item-projeto3{
+        grid-area: item3;
+    }
+    .item-projeto4{
+        grid-area: item4;
+    }
 }
-@media only screen and (min-width:1275px){
+@media only screen and (min-width:1215px){
     .items{
         display: grid;
         grid-template-areas: 
@@ -134,5 +161,21 @@ main > h1{
         width: 20px;
         height: 20px;
         margin-right: .25rem;
+    }
+    .container__carrossel{
+        display: grid;
+        grid-template-columns: 32.3% 32.3% 32.3%;
+        grid-template-areas: 
+        "item1 item2 item3"
+        "item4 item5 item6";
+        gap: 1rem;
+    }
+    .item-projeto5{
+        display: flex !important;
+        grid-area: item5;
+    }
+    .item-projeto6{
+        display: flex !important;
+        grid-area: item6;
     }
 }
