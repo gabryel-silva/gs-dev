@@ -42,19 +42,20 @@ footer > p{
     grid-area: frase;
     text-align: center;
 }
-.contato-footer a{
+.email{
     background-image: url('../../img/icons/envelope.svg');
     background-repeat: no-repeat;
     background-size: 16px;
     background-position-y: 3px;
     padding: 0 1.5rem;
 }
-.contato-footer p{
+.telefone{
     background-image: url('../../img/icons/telefone.svg');
     background-repeat: no-repeat;
     background-size: 16px;
     background-position-y: 6px;
     padding: 0 1.5rem;
+    color: var(--cor-4) !important;
 }
 @media only screen and (max-width:1020px){
     .grid__footer{
