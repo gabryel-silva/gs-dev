@@ -27,10 +27,17 @@ main > h1{
 .items h3{
     margin: .8rem 0;
 }
-.container__carrossel{
+.container__projetos{
     margin: 1rem 0;
 }
 .item-projeto5, .item-projeto6{
+    display: none !important;
+}
+.container__certificados{   
+    width: 100%;
+    margin: 5rem 0;
+}
+.item-certificado5, .item-certificado6{
     display: none !important;
 }
 @media only screen and (min-width:740px){
@@ -85,7 +92,7 @@ main > h1{
     .container__saudacao .texto, .container__saudacao .texto-semibold{
         font-size: 18px;
     }
-    .container__carrossel{
+    .container__projetos{
         display: grid;
         grid-template-columns: 49% 49%;
         grid-template-areas: 
@@ -104,6 +111,37 @@ main > h1{
     }
     .item-projeto4{
         grid-area: item4;
+    }
+    .container__certificados{
+        display: grid;
+        grid-template-areas:
+        "titulo titulo"
+        "item1 item2"
+        "item3 item4"
+        "btn btn";
+        column-gap: 1rem;
+        gap: 1rem;
+    }
+    .container__certificados h1{
+        grid-area: titulo;
+    }
+    .item-certificado1{
+        grid-area: item1;
+    }
+    .item-certificado2{
+        grid-area: item2
+    }
+    .item-certificado3{
+        grid-area: item3;
+    }
+    .item-certificado4{
+        grid-area: item4;
+    }
+    .btn-certificado{
+        grid-area: btn;
+    }
+    .item-certificado5, .item-certificado6{
+        display: none !important;
     }
 }
 @media only screen and (min-width:1215px){
@@ -162,7 +200,7 @@ main > h1{
         height: 20px;
         margin-right: .25rem;
     }
-    .container__carrossel{
+    .container__projetos{
         display: grid;
         grid-template-columns: 32.3% 32.3% 32.3%;
         grid-template-areas: 
@@ -176,6 +214,21 @@ main > h1{
     }
     .item-projeto6{
         display: flex !important;
+        grid-area: item6;
+    }
+    .container__certificados{
+        grid-template-areas:
+        "titulo titulo titulo"
+        "item1 item2 item3"
+        "item4 item5 item6"
+        "btn btn btn";
+    }
+    .item-certificado5{
+        display: grid !important;
+        grid-area: item5;
+    }
+    .item-certificado6{
+        display: grid !important;
         grid-area: item6;
     }
 }
