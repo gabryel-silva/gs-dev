@@ -42,6 +42,13 @@
     border-radius: 20px;
     grid-area: botao;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container__ver-certificado a img{
+    width: 14px;
+    margin-right: .25rem;
 }
 @media only screen and (min-width:740px){
     .card__certificado{

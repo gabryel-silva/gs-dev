@@ -55,7 +55,6 @@ footer > p{
     background-size: 16px;
     background-position-y: 6px;
     padding: 0 1.5rem;
-    color: var(--cor-4) !important;
 }
 @media only screen and (max-width:1020px){
     .grid__footer{
