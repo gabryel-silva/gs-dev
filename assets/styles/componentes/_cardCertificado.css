@@ -19,6 +19,8 @@
     grid-area: icone;
 }
 .card__certificado h2{
+    width: 225px;
+    line-height: 25px;
     grid-area: titulo;
 }
 .horas-curso{

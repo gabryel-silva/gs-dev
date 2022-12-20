@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/img/logos/logo-minimalista.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
+   <title>Currículo | GS dev</title>
+</head>
+<body>
+    <header>
+        <nav class="container__left">
+            <img src="assets/img/logos/logo-minimalista.svg" alt="logo do site">
+            <a href="#"><img src="assets/img/icons/casa.svg" alt="Início"></a>
+            <a href="#"><img src="assets/img/icons/contato.svg" alt="Contato"></a>
+            <input type="checkbox" id="btn-tema">
+            <label class="titulo" for="btn-tema" aria-label="light"><img src="./assets/img/icons/lua.svg" alt="tema do site">escuro</label>
+        </nav>
+        <nav class="container__right">
+            <a class="titulo" href="curriculo.html"><img src="assets/img/icons/user.svg" alt="Curriculo">Currículo</a>
+            <a class="titulo" href="#"><img src="assets/img/icons/navegdor.svg" alt="Portfólio">Portfólio</a>
+            <button class="botao-menu-fechado" aria-label="btn-menu-fechado"><img src="./assets/img/icons/menu-botao.svg" alt="menu-fechado"></button>
+        </nav>
+    </header>
+    <nav class="menu-fechado">
+        <ul>
+            <a class="texto active" href="#">Início</a>
+            <a class="texto" href="#">Contato</a>
+            <a class="texto" href="curriculo.html">Cúrriculo</a>
+            <a class="texto" href="#">Portfólio</a>
+            <input type="checkbox" id="btn-tema__menu-aberto">
+            <label class="texto" for="btn-tema__menu-aberto" aria-label="light"><img src="./assets/img/icons/lua.svg" alt="tema do site">escuro</label>
+        </ul>
+    </nav>
+    <main class="sessao-cabecalho-curriculo">
+        <div class="container__titulo-btn-voltar">
+            <div class="nav-pages">
+                <p class="titulo opacidade-texto">inicio> </p>
+                <span class="gradiente-titulo">Currículo</span>
+            </div>
+            <a href="#"><img src="./assets/img/icons/botao-voltar-dark.svg" alt="botao voltar"></a>
+        </div>
+        <div class="grid__titulo-curriculo">
+            <div class="container__foto">
+                <div class="bg-foto"></div>
+                <img src="./assets/img/foto/perfil.jpeg" alt="foto perfil">
+            </div>
+            <h1 class="titulo">Gabryel Silva Santos de Carvalho</h1>
+            <p class="texto">Dev.Front-end</p>
+            <div class="linha-gradiente"></div>
+            <div class="links-curriculo">
+                <a href="#" class="texto opacidade-texto"><img src="./assets/img/icons/github-tema-dark.svg" alt="icone GitHub">Github</a>
+                <a href="#" class="texto opacidade-texto"><img src="./assets/img/icons/linkedin-tema-dark.svg" alt="icone Linkedin">Linkedin</a>
+            </div>
+        </div>
+        <button class="btn-padrao texto"><img src="./assets/img/icons/download.svg" alt="botão baixar currículo">Baixar currículo</button>
+    </main>
+    <script src="./assets/js/menu.js"></script>
+</body>

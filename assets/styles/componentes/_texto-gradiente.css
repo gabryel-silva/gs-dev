@@ -1,0 +1,9 @@
+.gradiente-titulo{
+    background-image: var(--degrade-1);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-weight: var(--semiBold);
+    font-size: var(--titulo);
+}

@@ -1,0 +1,85 @@
+.sessao-cabecalho-curriculo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container__titulo-btn-voltar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav-pages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-pages p{
+    margin-right: 1rem;
+}
+.grid__titulo-curriculo{
+    display: grid;
+    grid-template-areas: 
+    "foto nome"
+    "foto descricao-cabecalho"
+    "foto linha"
+    "btn-links btn-links";
+    column-gap: .5rem;
+    width: 100%;
+    padding: 2rem 1rem .5rem;
+    background-color: var(--cor-2);
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: var(--shadow-container);
+}
+.container__foto{
+    overflow: hidden;
+    grid-area: foto;
+}
+.container__foto img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    padding: 3px;
+    background-image: var(--degrade-1);
+}
+.grid__titulo-curriculo h1{
+    grid-area: nome;
+    font-size: 16px;
+}
+.grid__titulo-curriculo > p{
+    grid-area: descricao-cabecalho;
+    font-size: 14px;
+}
+.linha-gradiente{
+    grid-area: linha;
+    width: 100%;
+    height: 3px;
+    background-image: var(--degrade-1);
+}
+.links-curriculo{
+    grid-area: btn-links;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-curriculo a{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.links-curriculo a img{
+    margin-right: .25rem;
+}
+.sessao-cabecalho-curriculo button{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sessao-cabecalho-curriculo button img{
+    margin-right: .5rem;
+}
