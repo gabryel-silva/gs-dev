@@ -90,7 +90,9 @@
     display: none;
 }
 .sessao-objetivo-interesses,
-.sessao-hard-skills{
+.sessao-hard-skills,
+.sessao-formacao,
+.sessao-experiencia{
     margin: 3rem 0;
 }
 .sessao-objetivo-interesses h2{
@@ -116,13 +118,19 @@
     width: 15%;
 }
 .sessao-hard-skills ul,
-.sessao-soft-skills ul{
+.sessao-soft-skills ul,
+.sessao-formacao ul,
+.sessao-experiencia ul{
     padding-left: 1rem;
 }
 .sessao-hard-skills li, 
 .sessao-hard-skills h2,
 .sessao-soft-skills li,
-.sessao-soft-skills h2{
+.sessao-soft-skills h2,
+.sessao-formacao li,
+.sessao-formacao h2,
+.sessao-experiencia li,
+.sessao-experiencia h2{
     margin-bottom: 1rem;
 }
 @media only screen and (min-width:740px){
@@ -207,7 +215,9 @@
     .sessao-objetivo-interesses p, 
     .sessao-objetivo-interesses span, 
     .sessao-hard-skills li,
-    .sessao-soft-skills li{
+    .sessao-soft-skills li,
+    .sessao-formacao li,
+    .sessao-experiencia li{
         font-size: 20px;
         font-weight: var(--light);
     }
@@ -216,7 +226,9 @@
     }
     .sessao-tecnologias > h2, 
     .sessao-hard-skills > h2,
-    .sessao-soft-skills > h2{
+    .sessao-soft-skills > h2,
+    .sessao-formacao > h2,
+    .sessao-experiencia > h2{
         font-size: 24px;
     }
 }
