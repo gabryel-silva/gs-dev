@@ -83,3 +83,140 @@
 .sessao-cabecalho-curriculo button img{
     margin-right: .5rem;
 }
+.links-curriculo button{
+    display: none;
+}
+.grid__titulo-curriculo span{
+    display: none;
+}
+.sessao-objetivo-interesses,
+.sessao-hard-skills{
+    margin: 3rem 0;
+}
+.sessao-objetivo-interesses h2{
+    margin-bottom: .25rem;
+}
+.sessao-tecnologias > h2{
+    margin-bottom: 1rem;
+}
+.card__tecnologia > img{
+    width: 50px;
+    align-self: center;
+}
+.card__html .progresso{
+    width: 65%;
+}
+.card__css .progresso{
+    width: 70%;
+}
+.card__js .progresso{
+    width: 30%;
+}
+.card__java .progresso{
+    width: 15%;
+}
+.sessao-hard-skills ul,
+.sessao-soft-skills ul{
+    padding-left: 1rem;
+}
+.sessao-hard-skills li, 
+.sessao-hard-skills h2,
+.sessao-soft-skills li,
+.sessao-soft-skills h2{
+    margin-bottom: 1rem;
+}
+@media only screen and (min-width:740px){
+    .grid__titulo-curriculo{
+        grid-template-rows: 35% 25% 5% 35%;
+        grid-template-columns: 30% 40% 20%;
+        grid-template-areas:
+        "foto nome nome"
+        "foto descricao-cabecalho descricao-cabecalho"
+        "foto linha linha"
+        "foto btn-links btn-links";
+        column-gap: 2rem;
+        padding: 1rem;
+        margin: 0;
+    }
+    .container__foto img{
+        width: 100%;
+        height: 100%;
+    }
+    .grid__titulo-curriculo h1{
+        font-size: 24px;
+        align-self: flex-end;
+    }
+    .grid__titulo-curriculo > p{
+        font-size: 20px;
+        align-self: center;
+    }
+    .links-curriculo{
+        justify-content: space-between;
+    }
+    .links-curriculo button{
+        display: flex;
+        background-image: var(--degrade-1);
+        width: 50%;
+        box-shadow: none;
+    }
+    .sessao-cabecalho-curriculo > button{
+        display: none;
+    }
+    .grid__tecnologias{
+        display: grid;
+        grid-template-areas: 
+        "html js"
+        "css java";
+        grid-template-columns: 48.8% 48.8%;
+        column-gap: 1rem;
+    }
+    .card__html{
+        grid-area: html;
+    }
+    .card__css{
+        grid-area: css;
+    }
+    .card__js{
+        grid-area: js;
+    }
+    .card__java{
+        grid-area: java;
+    }
+}
+@media only screen and (min-width:1020px){
+    .grid__titulo-curriculo h1{
+        font-size: 32px;
+    }
+    .container__foto img{
+        padding: 5px;
+    }
+    .grid__titulo-curriculo > p{
+        display: none;
+    }
+    .grid__titulo-curriculo span{
+        display: flex;
+        font-size: 24px;
+        align-self: center;
+    }
+    .nav-pages p, .nav-pages span{
+        font-size: 24px;
+    }
+    .sessao-objetivo-interesses h2{
+        font-size: 24px;
+    }
+    .sessao-objetivo-interesses p, 
+    .sessao-objetivo-interesses span, 
+    .sessao-hard-skills li,
+    .sessao-soft-skills li{
+        font-size: 20px;
+        font-weight: var(--light);
+    }
+    .card__tecnologia > img{
+        width: 60%;
+    }
+    .sessao-tecnologias > h2, 
+    .sessao-hard-skills > h2,
+    .sessao-soft-skills > h2{
+        font-size: 24px;
+    }
+}

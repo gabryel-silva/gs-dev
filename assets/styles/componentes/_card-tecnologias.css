@@ -1,0 +1,39 @@
+.card__tecnologia{
+    background-color: var(--cor-2);
+    border-radius: 10px;
+    box-shadow: var(--shadow-container);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-areas: 
+    "icone titulo"
+    "icone texto"
+    "icone progresso";
+    grid-template-columns: 20% 75%;
+    column-gap: 1rem;
+}
+.card__tecnologia img{
+    grid-area: icone;
+}
+.card__tecnologia h2{
+    grid-area: titulo;
+}
+.card__tecnologia > p{
+    grid-area: texto;
+    font-weight: var(--light);
+}
+.barra__progresso{
+    grid-area: progresso;
+    padding: .05rem;
+    background-color: var(--cor-1);
+    border-radius: 100px;
+    align-self: center;
+}
+.progresso{
+    background-image: var(--degrade-1);
+    border-radius: 100px;
+    padding: 0 .5rem;
+}
+.progresso > p{
+    color: var(--cor-3);
+}
