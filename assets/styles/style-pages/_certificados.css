@@ -1,0 +1,25 @@
+.certificados{
+    width: 100%;    
+}
+@media only screen and (min-width:740px){
+    .certificados{
+        display: grid;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        column-gap: 1rem;
+        justify-content: flex-start;
+    }
+    .certificados > h1{
+        width: 100%;
+    }
+    .certificados .card__certificado{
+        max-width: 48%;
+    }
+}
+@media only screen and (min-width:1275px){
+    .certificados .card__certificado{
+        max-width: 32.3%;
+    }
+}
