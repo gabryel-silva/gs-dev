@@ -18,7 +18,7 @@ header nav{
 .container__right{
     display: flex;
     justify-content: space-between;
-    width: 25%;
+    width: 40%;
 }
 .container__right a{
     display: flex;
@@ -59,7 +59,7 @@ header nav a:hover{
     border-radius: 20px;
     width: 110px;
 }
-@media only screen and (max-width:1275px){
+@media only screen and (max-width:1245px){
     header label{
         display: none !important;
     }
@@ -68,16 +68,17 @@ header nav a:hover{
         position: absolute;
         right: 10%;
     }
-    .container__right a:nth-child(2){
+    .container__right a:nth-child(2),
+    .container__right a:nth-child(3){
         display: none;
+    }
+    .container__right{
+        width: 30%;
     }
 }
 @media only screen and (max-width:1024px){
     .container__left{
         width: 20%;
-    }
-    .container__right{
-        width: 30%;
     }
 }
 @media only screen and (max-width:744px){

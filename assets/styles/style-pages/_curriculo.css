@@ -16,7 +16,7 @@
     align-items: center;
 }
 .nav-pages p{
-    margin-right: 1rem;
+    margin-right: .5rem;
 }
 .grid__titulo-curriculo{
     display: grid;
@@ -209,6 +209,13 @@
     .nav-pages p, .nav-pages span{
         font-size: 24px;
     }
+    .links-curriculo button{
+        width: 60%;
+    }
+    .links-curriculo a{
+        font-size: 20px;
+        font-weight: var(--light);
+    }
     .sessao-objetivo-interesses h2{
         font-size: 24px;
     }
@@ -230,5 +237,24 @@
     .sessao-formacao > h2,
     .sessao-experiencia > h2{
         font-size: 24px;
+    }
+    .grid__sessoes-curriculo{
+        display: grid;
+        grid-template-areas: 
+        "sessao1 sessao2"
+        "sessao1 sessao3";
+        column-gap: 2rem;
+        margin-bottom: 3rem;
+    }
+    .sessao-soft-skills{
+        grid-area: sessao1;
+    }
+    .sessao-formacao{
+        grid-area: sessao2;
+        margin: 0;
+    }
+    .sessao-experiencia{
+        grid-area: sessao3;
+        margin: 0;
     }
 }

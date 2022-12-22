@@ -13,23 +13,25 @@
     <header>
         <nav class="container__left">
             <img src="assets/img/logos/logo-minimalista.svg" alt="logo do site">
-            <a href="#"><img src="assets/img/icons/casa.svg" alt="Início"></a>
+            <a href="index.html"><img src="assets/img/icons/casa-white.svg" alt="Início"></a>
             <a href="#"><img src="assets/img/icons/contato.svg" alt="Contato"></a>
             <input type="checkbox" id="btn-tema">
             <label class="titulo" for="btn-tema" aria-label="light"><img src="./assets/img/icons/lua.svg" alt="tema do site">escuro</label>
         </nav>
         <nav class="container__right">
-            <a class="titulo" href="curriculo.html"><img src="assets/img/icons/user.svg" alt="Curriculo">Currículo</a>
+            <a class="titulo gradiente-titulo" href="curriculo.html"><img src="assets/img/icons/user-degrade.svg" alt="Curriculo">Currículo</a>
             <a class="titulo" href="#"><img src="assets/img/icons/navegdor.svg" alt="Portfólio">Portfólio</a>
+            <a class="titulo" href="#"><img src="assets/img/icons/certificado-white.svg" alt="Certificado">Certificados</a>
             <button class="botao-menu-fechado" aria-label="btn-menu-fechado"><img src="./assets/img/icons/menu-botao.svg" alt="menu-fechado"></button>
         </nav>
     </header>
     <nav class="menu-fechado">
         <ul>
-            <a class="texto active" href="index.html">Início</a>
+            <a class="texto" href="index.html">Início</a>
             <a class="texto" href="#">Contato</a>
-            <a class="texto" href="curriculo.html">Cúrriculo</a>
+            <a class="texto active" href="curriculo.html">Cúrriculo</a>
             <a class="texto" href="#">Portfólio</a>
+            <a class="texto" href="certificado.html">Certificados</a>
             <input type="checkbox" id="btn-tema__menu-aberto">
             <label class="texto" for="btn-tema__menu-aberto" aria-label="light"><img src="./assets/img/icons/lua.svg" alt="tema do site">escuro</label>
         </ul>
@@ -53,8 +55,8 @@
             <div class="linha-gradiente"></div>
             <div class="links-curriculo">
                 <button class="btn-padrao texto"><img src="./assets/img/icons/download.svg" alt="botão baixar currículo">Baixar currículo</button>
-                <a href="#" class="texto opacidade-texto"><img src="./assets/img/icons/github-tema-dark.svg" alt="icone GitHub">Github</a>
-                <a href="#" class="texto opacidade-texto"><img src="./assets/img/icons/linkedin-tema-dark.svg" alt="icone Linkedin">Linkedin</a>
+                <a href="https://github.com/gabryel-silva" target="_blank" class="texto opacidade-texto"><img src="./assets/img/icons/github-tema-dark.svg" alt="icone GitHub">Github</a>
+                <a href="https://www.linkedin.com/in/gabryel-silva-283611235/details/education/" target="_blank" class="texto opacidade-texto"><img src="./assets/img/icons/linkedin-tema-dark.svg" alt="icone Linkedin">Linkedin</a>
             </div>
         </div>
         <button class="btn-padrao texto"><img src="./assets/img/icons/download.svg" alt="botão baixar currículo">Baixar currículo</button>
@@ -171,27 +173,29 @@
             <li class="texto opacidade-texto">Inglês básico.</li>
         </ul>
     </section>
-    <section class="sessao-soft-skills">
-        <h2 class="titulo">Soft Skills</h2>
-        <ul>
-            <li class="texto opacidade-texto">Criativo;</li>
-            <li class="texto opacidade-texto">Esforçado;</li>
-            <li class="texto opacidade-texto">Pontual;</li>
-            <li class="texto opacidade-texto">Bom relacionamento;</li>
-            <li class="texto opacidade-texto">Estudioso e sempre buscando aprender mais;</li>
-            <li class="texto opacidade-texto">Gostar de ajudar o próximo;</li>
-            <li class="texto opacidade-texto">Encarar novos desafios.</li>
-        </ul>
-    </section>
-    <section class="sessao-formacao">
-        <h2 class="titulo">Formação Acadêmica</h2>
-        <li class="texto opacidade-texto">Análise e desenvolvimento de sistemas (cursando 4° semestre).</li>
-    </section>
-    <section class="sessao-experiencia">
-        <h2 class="titulo">Experiência Profissional</h2>
-        <li class="texto opacidade-texto">Estágio como recepcionista 2019/2020.</li>
-        <li class="texto opacidade-texto">Design gráfico freelancer 2020/2021.</li>
-    </section>
+    <div class="grid__sessoes-curriculo">
+        <section class="sessao-soft-skills">
+            <h2 class="titulo">Soft Skills</h2>
+            <ul>
+                <li class="texto opacidade-texto">Criativo;</li>
+                <li class="texto opacidade-texto">Esforçado;</li>
+                <li class="texto opacidade-texto">Pontual;</li>
+                <li class="texto opacidade-texto">Bom relacionamento;</li>
+                <li class="texto opacidade-texto">Estudioso e sempre buscando aprender mais;</li>
+                <li class="texto opacidade-texto">Gostar de ajudar o próximo;</li>
+                <li class="texto opacidade-texto">Encarar novos desafios.</li>
+            </ul>
+        </section>
+        <section class="sessao-formacao">
+            <h2 class="titulo">Formação Acadêmica</h2>
+            <li class="texto opacidade-texto">Análise e desenvolvimento de sistemas (cursando 3° semestre).</li>
+        </section>
+        <section class="sessao-experiencia">
+            <h2 class="titulo">Experiência Profissional</h2>
+            <li class="texto opacidade-texto">Estágio como recepcionista 2019/2020.</li>
+            <li class="texto opacidade-texto">Design gráfico freelancer 2020/2021.</li>
+        </section>
+    </div>
     <footer>
         <div class="container__logo-links">
             <div class="logo-footer">
