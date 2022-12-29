@@ -73,17 +73,17 @@
 .links-curriculo a img{
     margin-right: .25rem;
 }
-.sessao-cabecalho-curriculo button{
+.sessao-cabecalho-curriculo > a{
     border: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.sessao-cabecalho-curriculo button img{
+.sessao-cabecalho-curriculo > a img{
     margin-right: .5rem;
 }
-.links-curriculo button{
+.links-curriculo a:nth-child(1){
     display: none;
 }
 .grid__titulo-curriculo span{
@@ -161,13 +161,14 @@
     .links-curriculo{
         justify-content: space-between;
     }
-    .links-curriculo button{
+    .links-curriculo a:nth-child(1){
         display: flex;
         background-image: var(--degrade-1);
         width: 50%;
         box-shadow: none;
+        justify-content: center;
     }
-    .sessao-cabecalho-curriculo > button{
+    .sessao-cabecalho-curriculo > a{
         display: none;
     }
     .grid__tecnologias{

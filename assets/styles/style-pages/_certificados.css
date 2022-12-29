@@ -1,6 +1,16 @@
 .certificados{
     width: 100%;    
 }
+.nav__page-certificados{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.nav__page-certificados a{
+    margin: 0 .5rem;
+}
 @media only screen and (min-width:740px){
     .certificados{
         display: grid;
