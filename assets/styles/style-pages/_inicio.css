@@ -33,6 +33,9 @@ main > h1{
 .item-projeto5, .item-projeto6{
     display: none !important;
 }
+.container__img img{
+    width: 100%;
+}
 .container__certificados{   
     width: 100%;
     margin: 5rem 0;
