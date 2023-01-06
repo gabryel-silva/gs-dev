@@ -59,6 +59,13 @@ header nav a:hover{
     border-radius: 20px;
     width: 110px;
 }
+.container__left button{
+    background-color: transparent;
+    border: none;
+}
+.container__left button img{
+    width: 20px;
+}
 @media only screen and (max-width:1245px){
     header label{
         display: none !important;
@@ -92,6 +99,9 @@ header nav a:hover{
         width: 0;
     }
     .container__right a{
+        display: none;
+    }
+    .container__left button{
         display: none;
     }
 }

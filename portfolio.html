@@ -7,20 +7,19 @@
     <link rel="icon" type="image/x-icon" href="./assets/img/logos/logo-minimalista.svg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/style.css">
-   <title>Início | GS dev</title>
+   <title>Portfólio | GS dev</title>
 </head>
 <body>
     <header>
         <nav class="container__left">
             <img src="assets/img/logos/logo-minimalista.svg" alt="logo do site">
-            <a href="#"><img src="assets/img/icons/casa.svg" alt="Início"></a>
-            <button id="open-modal"><img src="assets/img/icons/contato.svg" alt="Contato"></button>
+            <a href="index.html"><img src="assets/img/icons/casa-white.svg" alt="Início"></a>
             <input type="checkbox" id="btn-tema">
             <label class="titulo" for="btn-tema" aria-label="light"><img src="./assets/img/icons/lua.svg" alt="tema do site">escuro</label>
         </nav>
         <nav class="container__right">
             <a class="titulo" href="curriculo.html"><img src="assets/img/icons/user.svg" alt="Curriculo">Currículo</a>
-            <a class="titulo" href="portfolio.html"><img src="assets/img/icons/navegdor.svg" alt="Portfólio">Portfólio</a>
+            <a class="titulo gradiente-titulo" href="#"><img src="assets/img/icons/navegador-ativo.svg" alt="Portfólio">Portfólio</a>
             <a class="titulo" href="certificado.html"><img src="assets/img/icons/certificado-white.svg" alt="Certificado">Certificados</a>
             <button class="botao-menu-fechado" aria-label="btn-menu-fechado"><img src="./assets/img/icons/menu-botao.svg" alt="menu-fechado"></button>
         </nav>
@@ -29,67 +28,20 @@
         <ul>
             <a class="texto active" href="#">Início</a>
             <a class="texto" href="curriculo.html">Cúrriculo</a>
-            <a class="texto" href="portfolio.html">Portfólio</a>
+            <a class="texto" href="#">Portfólio</a>
             <a class="texto" href="certificado.html">Certificados</a>
             <input type="checkbox" id="btn-tema__menu-aberto">
             <label class="texto" for="btn-tema__menu-aberto" aria-label="light"><img src="./assets/img/icons/lua.svg" alt="tema do site">escuro</label>
         </ul>
     </nav>
-    <div id="fade" class="hide"></div>
-    <div id="modal" class="hide">
-        <div class="contanier__titulo-fechar">
-            <h2 class="titulo">Contato</h2>
-            <button class="titulo opacidade-texto" id="close-modal">X</button>
-        </div><br>
-        <p class="texto opacidade-texto">61 98357-6374</p>
-        <p class="texto opacidade-texto">gabryelssantos@gmail.com</p><br>
-        <a class="texto btn-whatsapp" href="https://api.whatsapp.com/send?phone=5561983576374" target="_blank">Whatsapp</a>
-    </div>
-    <main>
-        <div class="container__saudacao">
-            <h1 class="titulo">Seja bem vindo! :)</h1>
-            <p class="texto opacidade-texto">Olá me chamo Gabryel Silva, 
-                neste site irei contar um pouco sobre mim, disponibilizarei 
-                meus projetos pessoais, meu currículo, certificados e contato 
-                pessoal.</p>
-            <div class="container__botoes">
-                <a class="texto-semibold" href="curriculo.html"><img src="./assets/img/icons/link.svg" alt="icone link">Currículo</a>
-                <a class="texto opacidade-texto" href="https://www.linkedin.com/in/gabryel-silva-283611235/" target="_blank"><img src="./assets/img/icons/linkedin-tema-dark.svg" alt="icone linkedin">Linkedin</a>
-                <a class="texto opacidade-texto" href="https://github.com/gabryel-silva" target="_blank"><img src="./assets/img/icons/github-tema-dark.svg" alt="icone github">Github</a>
-            </div>
+    <div class="container__titulo-btn-voltar">
+        <div class="nav-pages">
+            <p class="titulo opacidade-texto">inicio> </p>
+            <span class="gradiente-titulo">Portfólio</span>
         </div>
-        <div class="cotainer__ilustracao">
-            <img src="./assets/img/ilustracoes/ilustracao-1.svg" alt="">
-        </div>
-        <section class="sessao__info">
-            <div class="informativos">
-                <div class="items item1">
-                    <img src="./assets/img/icons/formacao.svg" alt="">
-                    <h3 class="titulo">Formação</h3>
-                    <p class="texto opacidade-texto">Atualmente estou cursando o 3° semestre 
-                        em Análise e desenvolvimento de sistemas.</p>
-                </div>
-                <div class="items item2">
-                    <img src="./assets/img/icons/mala.svg" alt="">
-                    <h3 class="titulo">Áreas de interesse</h3>
-                    <p class="texto opacidade-texto">Tenho interesse profissional 
-                        na áreas de desenvolvimento front-end, 
-                        desenvolvimento web e programação.</p>
-                </div>
-                <div class="items item3">
-                    <img src="./assets/img/icons/certificado.svg" alt="">
-                    <h3 class="titulo">Cursos</h3>
-                    <p class="texto opacidade-texto">Para estar mais preparado 
-                        para o mercado de trabalho 
-                        eu sempre busco por cursos da plataforma Alura.</p>
-                </div>
-            </div>
-        </section>
-    </main>
+        <a href="index.html"><img src="./assets/img/icons/botao-voltar-dark.svg" alt="botao voltar"></a>
+    </div><br>
     <section class="sessao__projetos">
-        <div class="container__titulo-projetos">
-            <h2 class="titulo">Projetos</h2>
-        </div>
         <div class="container__projetos">
             <article class="card__projeto item-projeto1">
                 <div class="container__img">
@@ -158,82 +110,7 @@
                 </div>
             </article>
         </div>        
-        <div class="container__btn-padrao">
-            <a href="portfolio.html" class="btn-padrao texto">Veja mais projetos</a>
-        </div>
-    </section>
-    <section class="container__certificados">
-        <h1 class="titulo">Certificados</h1>
-        <article class="card__certificado item-certificado1">
-            <img src="./assets/img/icons/html5.svg" alt="icone" class="icon-tecnologia">
-            <h2 class="texto">Formação: HTML e CSS</h2>
-            <div class="horas-curso">
-                <img src="./assets/img/icons/relogio.svg" alt="icone">
-                <p class="texto opacidade-texto">66 horas</p>
-            </div>
-            <div class="container__ver-certificado">
-                <a class="texto" href="https://cursos.alura.com.br/degree/certificate/7acbd466-6108-49bd-b27a-4ea2096c2f39" target="_blank"><img src="./assets/img/icons/selo.svg" alt="icone selo">Ver certificado</a>
-            </div>
-        </article>
-        <article class="card__certificado item-certificado2">
-            <img src="./assets/img/icons/css3.svg" alt="icone" class="icon-tecnologia">
-            <h2 class="texto">Formação CSS: Estilos</h2>
-            <div class="horas-curso">
-                <img src="./assets/img/icons/relogio.svg" alt="icone">
-                <p class="texto opacidade-texto">35 horas</p>
-            </div>
-            <div class="container__ver-certificado">
-                <a class="texto" href="https://cursos.alura.com.br/degree/certificate/14a8370a-54f6-42ad-94ae-93b41fa4c932" target="_blank"><img src="./assets/img/icons/selo.svg" alt="icone selo">Ver certificado</a>
-            </div>
-        </article>
-        <article class="card__certificado item-certificado3">
-            <img src="./assets/img/icons/javascript.svg" alt="icone" class="icon-tecnologia">
-            <h2 class="texto">JavaScript: criando requisições</h2>
-            <div class="horas-curso">
-                <img src="./assets/img/icons/relogio.svg" alt="icone">
-                <p class="texto opacidade-texto">8 horas</p>
-            </div>
-            <div class="container__ver-certificado">
-                <a class="texto" href="#"><img src="./assets/img/icons/selo.svg" alt="icone selo">Ver certificado</a>
-            </div>
-        </article>
-        <article class="card__certificado item-certificado4">
-            <img src="./assets/img/icons/sass.svg" alt="icone" class="icon-tecnologia">
-            <h2 class="texto">SASS: CSS sintaticamente espetacular</h2>
-            <div class="horas-curso">
-                <img src="./assets/img/icons/relogio.svg" alt="icone">
-                <p class="texto opacidade-texto">8 horas</p>
-            </div>
-            <div class="container__ver-certificado">
-                <a class="texto" href="https://cursos.alura.com.br/certificate/353dde2f-2a46-4cde-9678-60bdced96276" target="_blank"><img src="./assets/img/icons/selo.svg" alt="icone selo">Ver certificado</a>
-            </div>
-        </article>
-        <article class="card__certificado item-certificado5">
-            <img src="./assets/img/icons/tailwind.svg" alt="icone" class="icon-tecnologia">
-            <h2 class="texto">Tailwind CSS: estilizando com classes utilitárias</h2>
-            <div class="horas-curso">
-                <img src="./assets/img/icons/relogio.svg" alt="icone">
-                <p class="texto opacidade-texto">8 horas</p>
-            </div>
-            <div class="container__ver-certificado">
-                <a class="texto" href="https://cursos.alura.com.br/certificate/f5b08c0f-03d4-4756-a595-dc6fca221ffc" target="_blank"><img src="./assets/img/icons/selo.svg" alt="icone selo">Ver certificado</a>
-            </div>
-        </article>
-        <article class="card__certificado item-certificado6">
-            <img src="./assets/img/icons/github-certificado.svg" alt="icone" class="icon-tecnologia">
-            <h2 class="texto">Git e GitHub: repositório, commit e versões</h2>
-            <div class="horas-curso">
-                <img src="./assets/img/icons/relogio.svg" alt="icone">
-                <p class="texto opacidade-texto">8 horas</p>
-            </div>
-            <div class="container__ver-certificado">
-                <a class="texto" href="https://cursos.alura.com.br/certificate/0cb12e62-8dbc-46b9-94c8-b3f6485e1919" target="_blank"><img src="./assets/img/icons/selo.svg" alt="icone selo">Ver certificado</a>
-            </div>
-        </article>
-        <div class="container__btn-padrao btn-certificado">
-            <a href="certificado.html" class="btn-padrao texto">Veja mais certificados</a>
-        </div>
-    </section>
+    </section><br><br><br><br>
     <footer>
         <div class="container__logo-links">
             <div class="logo-footer">
@@ -264,7 +141,4 @@
         </div>
         <p class="copyright texto opacidade-texto">&copy; Desenvolvido por Gabryel Silva</p>
     </footer>
-    <script src="./assets/js/menu.js"></script>
-    <script src="./assets/js/modal.js"></script>
 </body>
-</html>
