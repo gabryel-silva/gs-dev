@@ -1,3 +1,3 @@
 # GS DEV
-* Este é meu site onde coloco todos os meus projetos, minhas experiências, aprendisados e currículo. Gostária de compartilhar com vocês todos os meus trabalhos e quem sabe poder trabalhar junto.
+* Este é meu site profissional, onde apresento todos os meus projetos, experiências, conhecimentos adquiridos e currículo. É uma plataforma onde compartilho meu portfólio e tenho o objetivo de conectar com possíveis colaboradores e oportunidades de trabalho. Ficaria honrado em compartilhar meus conhecimentos e habilidades com aqueles que buscam inovação e crescimento.
 [link do site](https://gs-dev.vercel.app/)
